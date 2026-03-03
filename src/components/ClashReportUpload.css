@@ -1,0 +1,38 @@
+.clash-report-upload {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.clash-report-upload h2 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #333;
+}
+
+.clash-report-upload button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.clash-report-upload button:hover {
+  background-color: #218838;
+}
+
+.clash-report-upload button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.clash-report-upload .error {
+  margin-top: 10px;
+  color: #dc3545;
+  font-size: 14px;
+}

@@ -1,0 +1,112 @@
+.timetable-container {
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.timetable-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.timetable-header h2 {
+  font-size: 20px;
+  color: #333;
+}
+
+.clash-indicator {
+  background-color: #dc3545;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.timetable-wrapper {
+  overflow-x: auto;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.timetable th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-weight: 600;
+  min-width: 100px;
+  max-width: 150px;
+  font-size: 11px;
+}
+
+.timetable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  vertical-align: top;
+  min-height: 60px;
+  max-width: 200px;
+}
+
+.day-cell {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.slot-cell {
+  background-color: white;
+  position: relative;
+}
+
+.slot-cell.empty {
+  background-color: #f8f9fa;
+}
+
+.slot-cell.clash {
+  background-color: #ffe6e6;
+  border: 2px solid #dc3545;
+}
+
+.course-info {
+  font-size: 11px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.clash-count {
+  margin-top: 5px;
+  padding: 2px 5px;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 3px;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.slot-clash-count {
+  margin-top: 5px;
+  font-size: 10px;
+  color: #ffc107;
+  font-weight: normal;
+}
+
+.no-data {
+  padding: 40px;
+  text-align: center;
+  color: #6c757d;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
